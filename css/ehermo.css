@@ -1,0 +1,53 @@
+body { padding-top: 30px; }
+    
+.backstretch img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.navbar {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.subtitle {
+  color:white;
+}
+
+.toright {
+  text-align:right;
+}
+
+/*
+.media {
+  padding-bottom: 30px;
+}*/
+
+.well {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.media {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+} 
+
+.media-body {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+} 
+
+.row div {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+} 
+
+.list-group-item {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}   
