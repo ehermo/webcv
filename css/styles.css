@@ -8,12 +8,13 @@ Version: 1.0
 
 /*Global Styles*/
 
+/*
 body {
 	background: #f1f4f7;
 	padding-top: 50px;
 	color: #5f6468;
 }
-
+*/ 
 p {
 	color: #777;
 }
@@ -22,10 +23,10 @@ a, a:hover, a:focus {
 	color: #30a5ff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/*
+h1, h2, h3, h4, h5, h6  {
 	color: #5f6468;
 }
-
 h1 {
 	font-weight: 300;
 	font-size: 40px;
@@ -38,7 +39,7 @@ h2 {
 
 h3, h4 {
 	font-weight: 300;
-}
+}*/
 
 .large {
 	font-size: 2em;
@@ -642,10 +643,11 @@ a.bg-danger:hover {
 	margin: 0 ;
 }
 
+/*
 h1.page-header {
 	margin-top: 30px;
 	border-bottom: 0;
-}
+}*/
 
 /*Charts*/
 

@@ -1,119 +1,48 @@
-var randomScalingFactor = function(){ return Math.round(Math.random()*10)};
-	
-	var lineChartData = {
-			labels : ["January","February","March","April","May","June","July"],
-			datasets : [
-				{
-					label: "My First dataset",
-					fillColor : "rgba(220,220,220,0.2)",
-					strokeColor : "rgba(220,220,220,1)",
-					pointColor : "rgba(220,220,220,1)",
-					pointStrokeColor : "#fff",
-					pointHighlightFill : "#fff",
-					pointHighlightStroke : "rgba(220,220,220,1)",
-					data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
-				},
-				{
-					label: "My Second dataset",
-					fillColor : "rgba(48, 164, 255, 0.2)",
-					strokeColor : "rgba(48, 164, 255, 1)",
-					pointColor : "rgba(48, 164, 255, 1)",
-					pointStrokeColor : "#fff",
-					pointHighlightFill : "#fff",
-					pointHighlightStroke : "rgba(48, 164, 255, 1)",
-					data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
-				}
-			]
 
-		}
 		
 	var barChartData = {
-			labels : ["OSM", "JAVA", "WebLogic"],
+			labels : ["OSM", "JAVA", "WebLogic","SoapUI","SOA","Eclipse","Order Managment","XML","OSB","Middleware","Linux","Windows","Groovy","Xquery"],
 			datasets : [
 				{
 
 					label:"Years",
-					fillColor : "rgba(220,220,220,0.5)",
+					fillColor : "rgba(0,0,0,1)",
 					strokeColor : "rgba(220,220,220,0.8)",
-					highlightFill: "rgba(220,220,220,0.75)",
+					highlightFill: "rgba(218,165,32,1)",
 					highlightStroke: "rgba(220,220,220,1)",
-					data : [4,10,6]
+					data : [4,10,6,4,5,7,6,10,3,6,10,10,3,6]
 				}
 			]
 	
 		}
 
-	var pieData = [
-				{
-					value: 300,
-					color:"#30a5ff",
-					highlight: "#62b9fb",
-					label: "Blue"
-				},
-				{
-					value: 50,
-					color: "#ffb53e",
-					highlight: "#fac878",
-					label: "Orange"
-				},
-				{
-					value: 100,
-					color: "#1ebfae",
-					highlight: "#3cdfce",
-					label: "Teal"
-				},
-				{
-					value: 120,
-					color: "#f9243f",
-					highlight: "#f6495f",
-					label: "Red"
-				}
-
-			];
-			
-	var doughnutData = [
-					{
-						value: 300,
-						color:"#30a5ff",
-						highlight: "#62b9fb",
-						label: "Blue"
-					},
-					{
-						value: 50,
-						color: "#ffb53e",
-						highlight: "#fac878",
-						label: "Orange"
-					},
-					{
-						value: 100,
-						color: "#1ebfae",
-						highlight: "#3cdfce",
-						label: "Teal"
-					},
-					{
-						value: 120,
-						color: "#f9243f",
-						highlight: "#f6495f",
-						label: "Red"
-					}
-	
-				];
+	var radarChartData = {
+    labels: ["Development", "Testing", "Proposals", "Architecture", "Project Managent", "Agile Methodologies", "Delivery", "Customer Facing"],
+    datasets: [
+        {
+            label: "My First dataset",
+            fillColor: "rgba(218,165,32,0.5)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [90, 70, 60, 80, 40, 80, 70, 80]
+        }
+    ]
+};
 
 window.onload = function(){
-	/*var chart1 = document.getElementById("line-chart").getContext("2d");
-	window.myLine = new Chart(chart1).Line(lineChartData, {
-		responsive: true
-	});
-    */
+
 	var chart2 = document.getElementById("bar-chart").getContext("2d");
 	window.myBar = new Chart(chart2).Bar(barChartData, {
-		responsive : true
+		responsive : true	
 	});
-	/*var chart3 = document.getElementById("doughnut-chart").getContext("2d");
-	window.myDoughnut = new Chart(chart3).Doughnut(doughnutData, {responsive : true
-	});
-	var chart4 = document.getElementById("pie-chart").getContext("2d");
-	window.myPie = new Chart(chart4).Pie(pieData, {responsive : true
-	});*/
+
+
+	var chart4 = document.getElementById("radar-chart").getContext("2d");
+	window.myRadar = new Chart(chart4).Radar(radarChartData, {
+		pointDot: false	
+	});	
 	
 };
