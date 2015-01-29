@@ -1,0 +1,7 @@
+{
+  "name": "BitFoam",
+  "description": "BitFoam Server",
+  "repository": "https://github.com/heroku/egauto",
+  "logo": "http://egauto.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"]
+}
