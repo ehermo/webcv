@@ -1,7 +1,7 @@
 
 		
 	var barChartData1 = {
-			labels : ["JAVA","XML","Groovy","Xquery","JavaScript","PL/SQL"],
+			labels : ["JAVA","XML","Groovy","XQuery","JavaScript","PL/SQL","WLST"],
 			datasets : [
 				{
 
@@ -10,7 +10,7 @@
 					strokeColor : "rgba(220,220,220,0.8)",
 					highlightFill: "rgba(218,165,32,1)",
 					highlightStroke: "rgba(220,220,220,1)",
-					data : [10,10,4,6,4,8]
+					data : [10,10,4,6,4,8,2]
 				}
 			]
 	
@@ -33,7 +33,7 @@
 		}	
 
 	var barChartData3 = {
-			labels : ["OSM","OSB","Order Managment","SOA","Middleware", "Hi-Availability"],
+			labels : ["OSM","OSB","Order Management","SOA","Middleware", "Hi-Availability"],
 			datasets : [
 				{
 
@@ -49,7 +49,7 @@
 		}		
 
 	var radarChartData = {
-    labels: ["Development", "Testing", "Proposals", "Architecture", "Project Managent", "Agile Methodologies", "Delivery", "Customer Facing"],
+    labels: ["Development", "Testing", "Proposals(RPF/RPI)", "Architecture", "Project Management", "Agile Methodologies", "Delivery", "Customer Facing"],
     datasets: [
         {
             label: "My First dataset",
