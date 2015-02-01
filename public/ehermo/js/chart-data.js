@@ -17,7 +17,7 @@
 		}
 
 	var barChartData2 = {
-			labels : ["WebLogic","SoapUI","SVN","Eclipse","Linux","Windows"],
+			labels : ["WebLogic","SoapUI","SVN","Eclipse","Linux","Windows","ANT","Maven"],
 			datasets : [
 				{
 
@@ -26,7 +26,7 @@
 					strokeColor : "rgba(220,220,220,0.8)",
 					highlightFill: "rgba(218,165,32,1)",
 					highlightStroke: "rgba(220,220,220,1)",
-					data : [6,4,5,9,10,10]
+					data : [6,4,5,9,10,10,10,2]
 				}
 			]
 	
