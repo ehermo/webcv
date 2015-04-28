@@ -8,23 +8,23 @@
 
 <url>
   <loc>http://www.bitfoam.com/</loc>
-  <lastmod>2015-01-30T12:14:23+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.bitfoam.com/ehermo/</loc>
-  <lastmod>2015-01-29T16:42:30+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://ehermo.bitfoam.com/</loc>
-  <lastmod>2015-04-28T16:42:30+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://deborahgil.bitfoam.com/</loc>
-  <lastmod>2015-04-28T16:42:30+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.bitfoam.com/ehermo/index.html</loc>
