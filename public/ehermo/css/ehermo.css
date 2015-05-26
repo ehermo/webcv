@@ -60,3 +60,8 @@ body {
 .modal {
   text-align:justify;
 }
+
+.thumbnail img{
+    width: 200px;
+    height: 300px;
+}
