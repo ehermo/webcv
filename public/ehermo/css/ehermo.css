@@ -61,7 +61,7 @@ body {
   text-align:justify;
 }
 
-.thumbnail img{
+.thumbnail .imgbook{
     width: 140px;
     height: 200px;
 }
