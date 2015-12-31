@@ -23,9 +23,9 @@ height: 100%;
 width: 100%;
 height: 100%;
 float: left;
-background: #08233e;
-opacity: 0.8;
-filter: alpha(opacity=80);
+background: #1c7bda;
+opacity: 0.3;
+filter: alpha(opacity=30);
 position: absolute;
 z-index: -1;
 }
